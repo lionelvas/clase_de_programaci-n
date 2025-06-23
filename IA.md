@@ -38,7 +38,7 @@ La Inteligencia Artificial se puede clasificar de dos formas principales:
 - Tiene capacidad de razonar, aprender y adaptarse en múltiples contextos.
 - Aún es teórica y está en desarrollo.
 
-### 🧠 IA superinteligente (Superintelligent AI)
+###  IA superinteligente (Superintelligent AI)
 - Supera la inteligencia humana en todos los aspectos.
 - Es hipotética y objeto de debate ético y científico.
 
@@ -65,18 +65,18 @@ La Inteligencia Artificial se puede clasificar de dos formas principales:
 - Reconocimiento facial y de voz (Face ID, Alexa).
 - Traducción automática (Google Translate, DeepL).
 - Recomendaciones personalizadas (Netflix, YouTube, Spotify).
-# 🤖 Introducción y Resumen de Machine Learning
+#  Introducción y Resumen de Machine Learning
 
 **Machine Learning (ML)** es una rama de la inteligencia artificial que permite a las computadoras aprender de los datos y realizar tareas sin ser programadas de forma explícita.
 
 ---
 
-## 📌 Tipos de Aprendizaje Automático
+##  Tipos de Aprendizaje Automático
 
 ### 1. Aprendizaje Supervisado
 - Usa datos **etiquetados**.
 - El modelo aprende a partir de ejemplos con respuestas conocidas.
-- 🧠 Ejemplos: 
+-  Ejemplos: 
   - Clasificación de correos (spam / no spam)
   - Predicción de precios de casas
 
@@ -123,8 +123,115 @@ La Inteligencia Artificial se puede clasificar de dos formas principales:
 - `XGBoost` – ideal para competiciones de Kaggle
 
 ---
-- Filtros y efectos en redes sociales.
+# 🤖 Tipos de Machine Learning
+
+Este repositorio resume los principales tipos de aprendizaje automático (Machine Learning), con descripciones claras y ejemplos comunes.
+
+---
+
+## 🟢 1. Aprendizaje Supervisado (Supervised Learning)
+
+📌 Usa datos **etiquetados**.  
+📊 El modelo aprende a partir de ejemplos con respuestas conocidas.
+
+### 🔧 Ejemplos:
+- Clasificación: detectar correos spam, reconocer imágenes de perros/gatos.
+- Regresión: predecir el precio de una casa.
+
+---
+
+## 🔵 2. Aprendizaje No Supervisado (Unsupervised Learning)
+
+📌 Usa datos **no etiquetados**.  
+🧠 El modelo descubre patrones ocultos sin ayuda externa.
+
+### 🔧 Ejemplos:
+- Clustering: segmentación de clientes en marketing.
+- Reducción de dimensionalidad: análisis de componentes principales (PCA).
+
+---
+
+## 🟡 3. Aprendizaje por Refuerzo (Reinforcement Learning)
+
+📌 Un agente interactúa con un entorno, tomando decisiones.  
+🏆 Aprende por **recompensas** o **castigos** según sus acciones.
+
+### 🔧 Ejemplos:
+- Juegos (ajedrez, Go, videojuegos).
+- Robótica.
+- Vehículos autónomos.
+
+---
+
+## 🟣 4. Aprendizaje Semi-Supervisado (Semi-Supervised Learning)
+
+📌 Mezcla datos **etiquetados y no etiquetados**.  
+👍 Útil cuando etiquetar datos es caro o lento.
+
+### 🔧 Ejemplo:
+- Clasificación de imágenes con solo algunas imágenes etiquetadas.
+
+---
+
+## ⚪ 5. Aprendizaje Auto-Supervisado (Self-Supervised Learning)
+
+📌 El modelo genera sus **propias etiquetas** a partir de la estructura de los datos.  
+🔥 Usado en IA moderna (GPT, BERT, CLIP, etc.).
+
+### 🔧 Ejemplo:
+- Predecir palabras faltantes en una oración (modelos de lenguaje).
+
+---
+
 ## 7. Arte y Creatividad
 - Generación de imágenes y música con IA (DALL·E, Soundraw).
 - Edición inteligente de fotos y videos.
 - Asistentes para la escritura creativa.
+# 🤖 Aplicaciones Reales de Machine Learning
+
+Este repositorio explica de forma sencilla y práctica dónde se aplica el **Machine Learning** en la vida real.
+
+---
+
+## 🚀 Principales aplicaciones
+
+### 🔍 1. Visión por Computadora
+- Reconocimiento facial
+- Detección de objetos
+- Conducción autónoma
+
+### 📧 2. Filtros de Spam
+- Clasificación de correos en spam / no spam
+- Seguridad de la bandeja de entrada
+
+### 🗣️ 3. Procesamiento de Lenguaje Natural (NLP)
+- Asistentes virtuales (Siri, Alexa, ChatGPT)
+- Traducción automática (Google Translate)
+- Análisis de opiniones y sentimientos
+
+### 🎧 4. Sistemas de Recomendación
+- Recomendaciones personalizadas en:
+  - Netflix (películas)
+  - Spotify (música)
+  - Amazon (productos)
+
+### 💳 5. Detección de Fraudes
+- Seguridad bancaria
+- Transacciones inusuales
+
+### 🏥 6. Medicina e Inteligencia Artificial
+- Diagnóstico por imágenes (rayos X, resonancias)
+- Pronóstico de enfermedades
+- Desarrollo de tratamientos personalizados
+
+### 🚗 7. Vehículos Autónomos
+- Navegación inteligente
+- Toma de decisiones en tiempo real
+
+### 📈 8. Predicción de Demanda y Precios
+- Optimización de inventarios
+- Estrategias comerciales
+
+### 🎨 9. Modelos Generativos (IA Creativa)
+- Generación de imágenes, música, texto, video
+- Aplicaciones como DALL·E, ChatGPT, Sora

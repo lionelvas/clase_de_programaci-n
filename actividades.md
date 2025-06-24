@@ -27,4 +27,6 @@ print(df2)
 df = pd.read_csv('StudentsPerformance.csv')
 print(df) #muestra los primeros y ultimos de todas las colunas)  
 print (df['lunch']) #para mostrar los primeros y ultimos de una coluna que digas
+print(df.head()) #muestra los primeros de todas las colunas
+print(df.tail()) #muestra los ultimos de todas las colunas
 ```

@@ -18,4 +18,13 @@ provincia = ['Cordoba', 'San Luis', 'Buenos Aires','Rioja', 'Tucuman']
 poblacion = [6000000,5000000,8000000,4000000,1000000]
 diccionario = {'Provicia': provincia,'Poblacion': poblacion}
 df2 = pd.DataFrame(diccionario)
-print(df2)```
+print(df2)
+```
+
+# actividad 1
+## explicacion de las colunas
+```import pandas as pd 
+df = pd.read_csv('StudentsPerformance.csv')
+print(df) #muestra los primeros y ultimos de todas las colunas)  
+print (df['lunch']) #para mostrar los primeros y ultimos de una coluna que digas
+```
